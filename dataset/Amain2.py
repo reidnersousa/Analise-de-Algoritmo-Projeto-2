@@ -64,55 +64,44 @@ print("Imprimindos os valores que foram inserido na mochila\n",valoresOtimos)
 ##  objetivo fazer a soma dos valores dos pesosOtimos e valoresOtimos 
 
 
-somaDosPesos=0
-
-capacidadeMax =int(w)
-"""
-#soma dos pesosOtimos
-for i , num in enumerate(pesosOtimos):
-
-#for i in range(pesosOtimos):
-    somaDosPesos = somaDosPesos+pesosOtimos[i]
-    print(somaDosPesos)
-    if( somaDosPesos>=capacidadeMax):
-        somaDosPesos = somaDosPesos - pesosOtimos[i]
-    
-"""
-    
- 
-
-for i , num in enumerate(pesos):
-
-#for i in range(pesosOtimos):
-    somaDosPesos = somaDosPesos+pesos[i]
-    
-    if( somaDosPesos>=capacidadeMax):
-        somaDosPesos = somaDosPesos - pesos[i]
-    
 
 
-print(pesos)
-print("pesoBom",somaDosPesos)
-print("pesosOtimos",pesosOtimos)
-print(w) #w  é a capacidadeDa mochila
-print(n) #n  e o numeros de itens 
 
 
-"""
-def somaW (pesosOtimos,w):
-
-    capacidadeMax=int(w)
-    somaDosPesos=0
-    for i , num in enumerate(pesosOtimos):
-        
-        #for i in range(pesosOtimos):
-        somaDosPesos = somaDosPesos+pesosOtimos[i]
-        print(">>",somaDosPesos)
-        if( somaDosPesos>=capacidadeMax):
-            somaDosPesos = somaDosPesos - pesosOtimos[i]
-
-    return   somaDosPesos
 
 
-somaW(pesos,w)
-    """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def myfunc(nn):
+  return abs(nn - 51)
+
+
+
+
+vetorBeneficio=[]
+
+capacidadeMax=int(w)
+
+
+
